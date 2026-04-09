@@ -1,51 +1,62 @@
-<!DOCTYPE html>
-<html lang="Es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Pabel de Administracion</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel=" stylesheet" href="dashboard.css">
-</head>
-
-<body>
-    <!--SIDE BAR-->
-    <div class="topbar">
-        <div class="title-bussiness">
-            <span>PEPITO SAC</span>
-        </div>
-        <div class="btn-menu">
-            <button class="hamburguer">
-                <i class="fa-light fa-bars"></i>
-            </button>
-
-        </div>
-    </div>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard - Panel Administrativo</title>
+  </head>
+  <body>
+    <!--SIDEBAR MOVIL-->
+    <section class="topbar">
+      <div class="title-business">
+        <span> Tienda Carlitos</span>
+      </div>
+      <div class="btn-menu">
+        <button class="hamburguer">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </section>
     <!--OVERLAY JUNTO CON EL NAVBAR-->
-    <!--sidebar: es el menu / la barra lateral IZQ...-->
-    <aside class="sidebar"></aside>
-    <div class="sidebar-logo">Dashboar</div>
-    <ul>
-        <li></li><span>Inicio</span></li>
-        <li></li><span>Reportes</span></ul></li>
-    </ul>
-</aside>
-<!--CONTENIDO PARCIAL (ctrl+)-->
-<main>
-    <!--navigation-->
-    <nav class="breadcrumb">
-    <span>Inicio</span>
-    <i class="fa-solid fa-chevron-rigth"></i>
-    <span> Reportes</span>
-    
-</nav>
-<div class="main-comtent">
-    <p>AQUI VAMOS A ESCRIBIR EL CONTENIDO</p>
-</div>
-</main>
-
-</body>
-
+    <!--SIDEBAR DESKTOP: Es el menu / la barra lateral Izquierda-->
+    <section class="overlay"></section>
+    <aside class="sidebar">
+      <div class="sidebar-logo">Dashboard</div>
+      <ul>
+        <li>
+          <a href="#" class="activo" id="activo">
+            <i class="fa-solid fa-house"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-folder"></i>
+            <span>Reportes</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <!-- Navigation -->
+      <nav class="breadcrumb">
+        <span>Inicio</span>
+        <i class="fa-solid fa-chevron-right"></i>
+        <span>Reportes</span>
+      </nav>
+      <div class="main-contenido">
+        <p>AQUI VAMOS A ESCRIBIR EL CONTENIDO</p>
+      </div>
+    </main>
+  </body>
 </html>
+Escribir mensaje
+×
+Se cargó la conversación
+N
