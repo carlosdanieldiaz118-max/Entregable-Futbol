@@ -34,7 +34,7 @@ Solución tecnológica: Desarrollar un sistema web con Java Spring Boot y MySQL 
 | RNF03 | Seguridad | Solo usuarios autorizados podrán acceder al sistema mediante usuario y contraseña (opcional) |
 
 ## Tecnologías utilizadas
-- Java 17
+- Java 25
 - Spring Boot 3
 - MySQL 8
 - HTML5, CSS3, JavaScript (Bootstrap 5, Font Awesome)
@@ -64,7 +64,7 @@ El sistema cuenta con **3 tablas** (cada una con máximo 4 atributos):
 | CLIENTE   | hace     | RESERVA   | 1:N |
 | CANCHA    | tiene    | RESERVA   | 1:N |
 
-### Script SQL completo (creación de base de datos, tablas y datos de ejemplo)
+### My sql = Base de datos
 
 ```sql
 CREATE DATABASE IF NOT EXISTS goalzone_deportivo;
@@ -91,7 +91,8 @@ CREATE TABLE reservas (
     fecha_hora_inicio DATETIME NOT NULL
 );
 ``
-Configuración de base de datos (application.properties)
+application.properties
+
 ``
 spring.application.name=goalzone_deportivo
 spring.datasource.url=jdbc:mysql://localhost:3306/goalzone_deportivo
