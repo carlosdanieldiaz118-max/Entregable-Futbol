@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    .table-responsive {
+        border-radius: 8px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive::-webkit-scrollbar {
+        height: 6px;
+    }
+    .table-responsive::-webkit-scrollbar-track {
+        background: #e9ecef;
+        border-radius: 4px;
+    }
+    .table-responsive::-webkit-scrollbar-thumb {
+        background: #2d6a4f;
+        border-radius: 4px;
+    }
+    .table-responsive::-webkit-scrollbar-thumb:hover {
+        background: #1b4d3e;
+    }
+}
+
+.table-success {
+    background-color: #d8f3dc !important;
+    border-color: #2d6a4f !important;
+}
+.table-success th {
+    background-color: #2d6a4f !important;
+    color: white !important;
+    border-color: #1b4d3e !important;
+}
+.table-success td {
+    border-color: #b7e4c7 !important;
+}
+.table-success tbody tr:hover {
+    background-color: #c8e6d9 !important;
+}
+
+.btn-success {
+    background-color: #2d6a4f;
+    border-color: #1b4d3e;
+}
+.btn-success:hover {
+    background-color: #1b4d3e;
+    border-color: #0f2c21;
+}
+
+.modal-header.bg-success {
+    background-color: #2d6a4f !important;
+}

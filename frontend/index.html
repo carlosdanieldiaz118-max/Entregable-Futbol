@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>GoalZone | Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="topbar">
+    <div class="title-business">
+        <i class="fa-solid fa-futbol"></i> GoalZone Deportivo
+    </div>
+    <div class="btn-menu">
+        <button class="hamburger" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</div>
+
+<div class="overlay"></div>
+
+<aside class="sidebar">
+    <div class="sidebar-logo">
+        <i class="fa-solid fa-futbol"></i> GoalZone
+    </div>
+    <ul>
+        <li>
+            <a href="index.html" class="activo" data-page="inicio">
+                <i class="fa-solid fa-house"></i>
+                <span>Inicio</span>
+            </a>
+        </li>
+        <li>
+            <a href="canchas.html" data-page="canchas">
+                <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                <span>Canchas</span>
+            </a>
+        </li>
+        <li>
+            <a href="clientes.html" data-page="clientes">
+                <i class="fa-solid fa-users"></i>
+                <span>Clientes</span>
+            </a>
+        </li>
+        <li>
+            <a href="reserva.html" data-page="reservas">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Reservas</span>
+            </a>
+        </li>
+    </ul>
+</aside>
+
+<main class="main-content">
+    <div class="container mt-4">
+        <h1 class="mb-4 text-center text-md-start">
+            <i class="fa-solid fa-trophy text-success me-2"></i>Bienvenido a GoalZone
+        </h1>
+        <p class="lead text-center text-md-start">
+            <i class="fa-solid fa-chalkboard-user me-2"></i>Gestiona tus canchas, clientes y reservas deportivas de forma fácil y rápida.
+        </p>
+
+        <div class="row mt-5 g-4">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card deportista-card h-100">
+                    <img src="https://imagenes.elpais.com/resizer/v2/SWMX6XOFGDEPKC6UP5H7A77ITM.jpg?auth=44409f490911e09240b01b5e09d5e84eea63312300b060b47b8e71d79f17c33b&width=1960&height=1470&focal=2002%2C1070" class="card-img-top" alt="Cristiano Ronaldo">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cristiano Ronaldo</h5>
+                        <p class="card-text">Leyenda del fútbol mundial, referente de esfuerzo y goles.</p>
+                        <i class="fa-solid fa-futbol text-success"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card deportista-card h-100">
+                    <img src="https://static01.nyt.com/images/2026/03/17/arts/GettyImages-2241119397/GettyImages-2241119397-jumbo.jpg?auto=webp&quality=75" class="card-img-top" alt="Stephen Curry">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Stephen Curry</h5>
+                        <p class="card-text">Revolucionó el baloncesto con su increíble tiro de tres puntos.</p>
+                        <i class="fa-solid fa-basketball text-warning"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card deportista-card h-100">
+                    <img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4121,h_2318,x_0,y_249/c_fill,w_912,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/si/01jmrhqk442bj1d8cm36.jpg" class="card-img-top" alt="Luka Doncic">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Luka Doncic</h5>
+                        <p class="card-text">Genio europeo, estrella de la NBA con talento y visión única.</p>
+                        <i class="fa-solid fa-basketball text-warning"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card deportista-card h-100">
+                    <img src="https://i.pinimg.com/736x/35/b5/32/35b5322bc4f84477cf0516474a9f0401.jpg" class="card-img-top" alt="Kylian Mbappé">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kylian Mbappé</h5>
+                        <p class="card-text">Velocidad y definición, campeón del mundo con Francia.</p>
+                        <i class="fa-solid fa-futbol text-success"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/sidebar.js"></script>
+</body>
+</html>
